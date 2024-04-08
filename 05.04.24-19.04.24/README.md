@@ -1,4 +1,4 @@
-<h1>HTTP Metotları</h1>
+<h1> HTTP Metotları</h1>
 Veri iletimi için kullanılan http, protokollerinden bir tanesidir. WEB tarayıcılar ve sunucular arasındaki iletişime yönelik bazı metotları bulunmaktadır. 
 <h2>1.Idempotent Metot</h2> 
 Bir isteğin birden fazla kez gerçekleşmesi sonucu değiştirmemesi prensibine dayanır. HTTP metotlarında birden fazla kez gönderilen isteğin kaynak üzerinde bir değişikliğe sebebiyet vermemesi durumudur.
