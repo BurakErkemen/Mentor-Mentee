@@ -96,8 +96,39 @@ Bu ilke, istemcilerin daha az kod ile daha zengin bir içerik içermesini sağla
 # REST – RESTful Arasındaki Fark
 
 REST, web tabanlı bir tasarım mimarisidir. Kaynaklara benzersiz URI’ler ile erişime ve kaynakların temsilini kullanarak etkileşimde bulunma fikridir. Bu etkileşimler genellikle HTTP metotları kullanılarak gerçekleştirilir.
-
 RESTful, bir uygulamanın veya servisin REST prensiplerini takip etmesi durumudur.
-
 Kaynaklara benzersiz URI’ler üzerinden erişilebilir, HTTP metotlarının kullanıldığı, temsilin istemcilerle paylaşıldığı ve sunucunun durum bilgisinin saklanmadığı anlamına gelir.
 
+# REST API Çalışma Mantığı
+
+Resource ile yapılır. Resource URI ile tenımlanır ve metotlar yardımıyla yapılan istekler sonucu JSON, XML, TXT veya HTML gibi istenilen formatlarında değer döndürülür.  Genellikle JSON tercih edilir. URI ise bir kaynağın web üzerindeki tanımlayıcı adıdır.  
+
+İki çeşittir. 
+-	Collection URI: array, list gibi veri türleri için kullanılır. 	
+-	Element URI: değişkenler üzerinde işlem yapmak için kullanılır. 
+
+# REST’te HTTP Metotları
+## GET
+URI’de bulunan resource’u getirmek için kullanılır. Bu istekte body olmaz sadece header olur. 
+## HEAD
+Response’ta gönderilecek header’lar için yapılır. Resource’un belirtilen URI’de olmasını veya değişikliklerin en son ne zaman yapıldığı kontrol edilebilir. 
+Gönderilen istekte body olmayacak fakat headerlar görünecek.
+
+## POST
+
+İstek gönderilecek server’da yeni bir resource oluşturmak, form inputları ve controller resource’ları için kullanılır.
+Bu işlemlerde yeni bir post oluşturulacağı için body ve title değişkenleri de gönderilir. 
+
+## PUT
+Body ile bir resource gönderilir. Eğer URI var olan bir resource’a aitse o resource güncellenir. 
+
+## OPTIONS
+İstek gönderdiğimiz URI’ın hangi metotları desteklediğini öğrenmek için kullanırız. Bu bilgi bize header’da allow ile verilir. 
+
+# RESPONSE Kodları 
+Gönderilen isteklerin durumlarını client üzerinde gösteren kodlardır. 
+- 1xx bilgi,
+- 2xx Başarılı,
+- 3xx Yönlendirme,
+- 4xx Client Hatası,
+-  5xx Server Hatası 
