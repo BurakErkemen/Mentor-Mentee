@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\multilayer_architecture\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\model\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\migrations\\202405120151303_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\migrations\\202405120151303_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\model\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\model\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\multilayer_architecture\\multilayer_architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|d:\\github\\mentor-mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\model\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\migrations\\202405120151303_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\migrations\\202405120151303_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E5439D-FEBC-467F-9208-796600FDA6B5}|multilayer_architecture\\multilayer_architecture.csproj|solutionrelative:multilayer_architecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,98 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "202405120151303_InitialCreate.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Migrations\\202405120151303_InitialCreate.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Migrations\\202405120151303_InitialCreate.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Migrations\\202405120151303_InitialCreate.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Migrations\\202405120151303_InitialCreate.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Migrations\\202405120151303_InitialCreate.cs",
               "RelativeToolTip": "multilayer_architecture\\Migrations\\202405120151303_InitialCreate.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T01:51:44.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T01:51:44.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Configuration.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Migrations\\Configuration.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Migrations\\Configuration.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Migrations\\Configuration.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Migrations\\Configuration.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Migrations\\Configuration.cs",
               "RelativeToolTip": "multilayer_architecture\\Migrations\\Configuration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T01:51:09.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DataLayer.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\DataLayer.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\DataLayer.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Model\\DataLayer.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\DataLayer.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\DataLayer.cs",
               "RelativeToolTip": "multilayer_architecture\\Model\\DataLayer.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAArwCgAAAAhAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAApwCgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T01:11:45.178Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Context.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\Context.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\Context.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Model\\Context.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\Context.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\Context.cs",
               "RelativeToolTip": "multilayer_architecture\\Model\\Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T01:00:19.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\Employee.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\Employee.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Model\\Employee.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\Employee.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\Employee.cs",
               "RelativeToolTip": "multilayer_architecture\\Model\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T00:27:51.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T00:27:51.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Department.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\Department.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\Department.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Model\\Department.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Model\\Department.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Model\\Department.cs",
               "RelativeToolTip": "multilayer_architecture\\Model\\Department.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T00:27:51.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T00:27:51.198Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Program.cs",
               "RelativeDocumentMoniker": "multilayer_architecture\\Program.cs",
-              "ToolTip": "D:\\GitHub\\multilayer_architecture\\multilayer_architecture\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\multilayer_architecture\\multilayer_architecture\\Program.cs",
               "RelativeToolTip": "multilayer_architecture\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T00:09:46.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-12T00:09:46.049Z"
             }
           ]
         }
