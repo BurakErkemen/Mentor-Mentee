@@ -5,7 +5,7 @@
 - API
 - REST - RESTful 
 - HackerRank Haftada 3 Adet
-- 
+
 # <a href = "https://github.com/BurakErkemen/Mentor-Mentee/tree/main/19.04.24-04.05.24">19.04.2024 - 03.05.2024 tarihi arasındaki gelişmeler:</a>
 - Çok Katmanlı Mimari
 - Data Transfer Object (DTO)
