@@ -16,5 +16,7 @@ namespace multilayer_architecture.Model
         {
 
         }
+
+        // Departman id --> employes
     }
 }

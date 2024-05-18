@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\todoapi\\todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\todoapi\\todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\todoapi\\todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\todoapi\\todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\04.05.24-18.05.24\\todoapi\\todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\todoitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\todoapi\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\04.05.24-18.05.24\\todoapi\\todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|d:\\github\\mentor-mentee\\04.05.24-18.05.24\\todoapi\\todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1648D747-C293-424F-B88B-7D9FBE769E08}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\models\\todoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoItemsController.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodoItemsController.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
+              "RelativeToolTip": "TodoApi\\Controllers\\TodoItemsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T01:53:46.364Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TodoItemDTO.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
               "RelativeDocumentMoniker": "TodoApi\\Models\\TodoItemDTO.cs",
-              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\Models\\TodoItemDTO.cs",
               "RelativeToolTip": "TodoApi\\Models\\TodoItemDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T02:16:30.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TodoItemsController.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
-              "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodoItemsController.cs",
-              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Controllers\\TodoItemsController.cs",
-              "RelativeToolTip": "TodoApi\\Controllers\\TodoItemsController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAMwDYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T01:53:46.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Program.cs",
-              "RelativeDocumentMoniker": "TodoApi\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Program.cs",
-              "RelativeToolTip": "TodoApi\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T01:45:13.621Z",
+              "WhenOpened": "2024-05-18T18:55:15.071Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "TodoContext.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
+              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
               "RelativeDocumentMoniker": "TodoApi\\Models\\TodoContext.cs",
-              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
+              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\Models\\TodoContext.cs",
               "RelativeToolTip": "TodoApi\\Models\\TodoContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T01:35:56.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TodoItem.cs",
-              "DocumentMoniker": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Models\\TodoItem.cs",
-              "RelativeDocumentMoniker": "TodoApi\\Models\\TodoItem.cs",
-              "ToolTip": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\Models\\TodoItem.cs",
-              "RelativeToolTip": "TodoApi\\Models\\TodoItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T01:34:43.399Z",
+              "WhenOpened": "2024-05-18T18:55:06.948Z",
               "EditorCaption": ""
             }
           ]

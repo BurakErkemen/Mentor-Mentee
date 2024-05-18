@@ -9,7 +9,8 @@ namespace TodoApi.Controllers
     public class TodoItemsController : ControllerBase
     {
         private readonly TodoContext _context;
-
+        
+        // Dependency Injection 
         public TodoItemsController(TodoContext context)
         {
             _context = context;
@@ -17,7 +18,6 @@ namespace TodoApi.Controllers
         private static TodoItemDTO ItemToDTO(TodoItem todoItem) =>
       new TodoItemDTO
       {
-          Id = todoItem.Id,
           Name = todoItem.Name,
           IsComplete = todoItem.IsComplete
       };
@@ -51,12 +51,17 @@ namespace TodoApi.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutTodoItem(long id, TodoItemDTO todoDTO)
         {
-            if (id != todoDTO.Id)
+            var todoItem = await _context.TodoItems.FindAsync(id);
+            if (todoItem == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            _context.Entry(todoDTO).State = EntityState.Modified;
+            todoItem.Name = todoDTO.Name;
+            todoItem.IsComplete= todoDTO.IsComplete;
+
+
+            _context.Entry(todoItem).State = EntityState.Modified;
 
             try
             {
@@ -64,21 +69,13 @@ namespace TodoApi.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!TodoItemExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                
+                return StatusCode(500);
             }
 
             return NoContent();
         }
 
-        // POST: api/TodoItems
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<TodoItemDTO>> PostTodoItem(TodoItemDTO todoDTO)
         {
@@ -117,36 +114,6 @@ namespace TodoApi.Controllers
         private bool TodoItemExists(long id)
         {
             return _context.TodoItems.Any(e => e.Id == id);
-        }
-
-
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutTodoItem(long id, TodoItem todoitem)
-        {
-            if (id != todoitem.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(todoitem).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!TodoItemExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
         }
     }
 }

@@ -31,20 +31,38 @@ namespace multilayer_architecture.Model
             _context.SaveChanges();
         }
 
-        public void EmployeeUpdate(int card)
+        public int? GetEmployeeID(int identitycard)
         {
-            //Kartına göre Select
+            // Select employee ID based on identity card number
+            int? employeeID = _context.Employees
+                .Where(i => i.employee_identity_card == identitycard)
+                .Select(i => (int?)i.employee_id)
+                .FirstOrDefault();
+            return employeeID;
         }
-        
-        public void EmployeeDelete(int card)
+
+        public void EmployeeUpdate(string name, string lastname, int identitycard)
+        {
+            var employeeID = GetEmployeeID(identitycard);
+            Employee employee = new Employee()
+            {
+                employee_id = employeeID.GetValueOrDefault(),
+                employee_name = name,
+                employee_lastname = lastname,
+            };
+            
+        }
+        public void EmployeeDelete(int identitycard)
         {
             //Kartına göre Select
+            var emplpyeId = GetEmployeeID(identitycard);
+
         }
 
         public List<Employee> EmployeesList { get; private set; }
 
         //Departman Adları
-        public void DepartmenAdd(string depName,short depStaff)
+        public void DepartmenAdd(string depName, short depStaff)
         {
             Department department = new Department()
             {
@@ -55,7 +73,7 @@ namespace multilayer_architecture.Model
             _context.SaveChanges();
         }
 
-        public void DepartmentUpdate(string depName,string newName, short newStaff)
+        public void DepartmentUpdate(string depName, string newName, short newStaff)
         {
             //Departman adına göre Select
             var departmentIds = _context.Departments
@@ -63,7 +81,9 @@ namespace multilayer_architecture.Model
                                         .Select(d => d.department_id)
                                         .ToList();
 
-            Department department = new Department() {
+            Department department = new Department()
+            {
+                department_id = departmentIds.FirstOrDefault(),
                 department_name = newName,
                 department_staffs = newStaff
             };

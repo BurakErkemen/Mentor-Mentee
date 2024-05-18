@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\TodoApi.csproj": {}
+    "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\TodoApi.csproj": {
+    "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\TodoApi.csproj",
+        "projectPath": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Mentor-Mentee\\TodoApi\\TodoApi\\obj\\",
+        "outputPath": "D:\\GitHub\\Mentor-Mentee\\04.05.24-18.05.24\\TodoApi\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

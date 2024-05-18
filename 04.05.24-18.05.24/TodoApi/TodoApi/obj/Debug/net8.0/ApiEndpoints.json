@@ -86,7 +86,7 @@
       },
       {
         "Name": "todoDTO",
-        "Type": "TodoApi.Models.TodoItemDTO",
+        "Type": "TodoApi.Models.TodoItem",
         "IsRequired": true
       }
     ],

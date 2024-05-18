@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddDbContext<TodoContext>(opt =>
     opt.UseInMemoryDatabase("TodoList"));
+// Endpoint Taramasý 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -21,10 +22,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// *** 
 app.UseHttpsRedirection();
 
+// Login Page'lerde kullanýlýr. 
 app.UseAuthorization();
 
+// Controller ile Index baðlantýsý
 app.MapControllers();
 
 app.Run();
