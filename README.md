@@ -24,6 +24,6 @@
 # <a href = "https://github.com/BurakErkemen/Mentor-Mentee/tree/main/04.05.24-18.05.24">17.05.24 - 31.05.24 tarihleri arasındaki gelişmeler:</a>
 - HTTP codes
 - Service ve Repository kullanarak ToDoApp_Api yi güncelle
-- <a href="https://medium.com/@yakupblsm61/api-nedi%CC%87r-restful-api-nedi%CC%87r-236d88fa7848">API Nedir?</a>
-- <a href="https://medium.com/@yakupblsm61/api-nedi%CC%87r-restful-api-nedi%CC%87r-236d88fa7848">API Nasıl Kullanılır?</a>
+- <a href="https://medium.com/@yakupblsm61/api-nedi%CC%87r-restful-api-nedi%CC%87r-236d88fa7848">API Nedir? (Medium)</a>
+- <a href="https://www.youtube.com/watch?v=n2qTnQdEScA&ab_channel=PatikaDeveloper">API Nasıl Kullanılır? (YouTube)</a>
 - <a href="https://github.com/FabianGosebrink/ASPNETCore-WebAPI-Sample/tree/main/SampleWebApiAspNetCore">Örnek Proje</a>
