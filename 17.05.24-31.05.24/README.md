@@ -1,6 +1,6 @@
 # ToDoAPI uygulamasına Repository - Service Katmanlarının eklenmesi 
-- <a href="https://www.youtube.com/watch?v=6vsONJla1Fk&ab_channel=TeddySmith">"Repository Layer" alakalı bir video</a>
-
+- <a href="https://www.youtube.com/watch?v=6vsONJla1Fk&ab_channel=TeddySmith">"Repository Layer" ile ilgili YouTube</a>
+- <a href="https://www.youtube.com/watch?v=C0IH93yKLyA&ab_channel=SingletonSean">"Servis Layer" ile ilgili YouTube</a>
 
 # Sorulacak Soru 
 - Repository Katmanında neden StatuCode() döndürülemiyor.
