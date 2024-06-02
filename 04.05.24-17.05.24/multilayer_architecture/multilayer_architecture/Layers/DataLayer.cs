@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Data.Entity.Core.Objects;
-using System.Data.Entity.Migrations;
+﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace multilayer_architecture.Model
 {
@@ -18,13 +13,15 @@ namespace multilayer_architecture.Model
             _context = context;
         }
 
-        public void EmployeeAdd(string name, string lastname, int card, int department)
+        // Employee Operations
+        public void EmployeeAdd(string name, string lastname, int card, int departmentId)
         {
             Employee employee = new Employee()
             {
-                employee_identity_card = card,
                 employee_name = name,
-                employee_lastname = lastname
+                employee_lastname = lastname,
+                employee_identity_card = card,
+                department = _context.Departments.Find(departmentId)
             };
 
             _context.Employees.Add(employee);
@@ -33,78 +30,84 @@ namespace multilayer_architecture.Model
 
         public int? GetEmployeeID(int identitycard)
         {
-            // Select employee ID based on identity card number
-            int? employeeID = _context.Employees
-                .Where(i => i.employee_identity_card == identitycard)
-                .Select(i => (int?)i.employee_id)
-                .FirstOrDefault();
-            return employeeID;
+            return _context.Employees
+                           .Where(e => e.employee_identity_card == identitycard)
+                           .Select(e => (int?)e.employee_id)
+                           .FirstOrDefault();
         }
 
         public void EmployeeUpdate(string name, string lastname, int identitycard)
         {
-            var employeeID = GetEmployeeID(identitycard);
-            Employee employee = new Employee()
+            var employee = _context.Employees
+                                   .FirstOrDefault(e => e.employee_identity_card == identitycard);
+
+            if (employee != null)
             {
-                employee_id = employeeID.GetValueOrDefault(),
-                employee_name = name,
-                employee_lastname = lastname,
-            };
-            
+                employee.employee_name = name;
+                employee.employee_lastname = lastname;
+                _context.SaveChanges();
+            }
         }
+
         public void EmployeeDelete(int identitycard)
         {
-            //Kartına göre Select
-            var emplpyeId = GetEmployeeID(identitycard);
+            var employee = _context.Employees
+                                   .FirstOrDefault(e => e.employee_identity_card == identitycard);
 
+            if (employee != null)
+            {
+                _context.Employees.Remove(employee);
+                _context.SaveChanges();
+            }
         }
 
-        public List<Employee> EmployeesList { get; private set; }
+        public List<Employee> GetEmployeesList()
+        {
+            return _context.Employees.Include(e => e.department).ToList();
+        }
 
-        //Departman Adları
-        public void DepartmenAdd(string depName, short depStaff)
+        // Department Operations
+        public void DepartmentAdd(string depName, short depStaff)
         {
             Department department = new Department()
             {
                 department_name = depName,
                 department_staffs = depStaff
             };
+
             _context.Departments.Add(department);
             _context.SaveChanges();
         }
 
         public void DepartmentUpdate(string depName, string newName, short newStaff)
         {
-            //Departman adına göre Select
-            var departmentIds = _context.Departments
-                                        .Where(d => d.department_name == depName)
-                                        .Select(d => d.department_id)
-                                        .ToList();
+            var department = _context.Departments
+                                     .FirstOrDefault(d => d.department_name == depName);
 
-            Department department = new Department()
+            if (department != null)
             {
-                department_id = departmentIds.FirstOrDefault(),
-                department_name = newName,
-                department_staffs = newStaff
-            };
-            _context.Departments.AddOrUpdate(department);
-            _context.SaveChanges();
+                department.department_name = newName;
+                department.department_staffs = newStaff;
+                _context.SaveChanges();
+            }
         }
 
         public void DepartmentDelete(string depName)
         {
-            //Departman adına göre Select
             var departmentsToDelete = _context.Departments
-                                          .Where(d => d.department_name == depName)
-                                          .ToList();
+                                              .Where(d => d.department_name == depName)
+                                              .ToList();
 
-            // Seçilen departmanları sil
             foreach (var department in departmentsToDelete)
             {
                 _context.Departments.Remove(department);
             }
             _context.SaveChanges();
         }
-        public List<Department> DepartmensList { get; private set; }
+
+        public List<Department> GetDepartmentsList()
+        {
+            return _context.Departments.ToList();
+        }
     }
 }
